@@ -1,5 +1,95 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', 'Open Sans', sans-serif;
 }
-
-/* Your styles here ... */
+h1{
+  font-size:14px;
+  font-weight:normal;
+  margin:0 0 -1.45em;
+}
+h4{
+  font-size:24px;
+}
+li {
+    display: inline-block;
+    text-align: center;
+    flex: 1;
+}
+a{
+  color:#000;
+  text-decoration: none;
+}
+a:hover
+{
+  color: #66AAAA
+}
+span {
+    display: inline-block;
+    width: 300px;
+    margin-top:20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-right:10px;
+    overflow: hidden;
+    flex: 1;
+    text-align: center;
+}
+#n-primary{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#search{
+  border-radius: 10px;
+  border: 1px black solid;
+}
+#content{
+  margin: 0 auto;
+}
+#background{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  height: 400px;
+  transition: background 1s linear;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://lorempixel.com/1100/400/city/1");
+}
+#middle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circleContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.circle {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #FFFFFF;
+	border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  margin: 0 5px 0 5px;
+}
+.circleFilled {
+	background-color: #FFFFFF;
+}
+.footer{
+  background:#000;
+  color:#FFFFFF;
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}

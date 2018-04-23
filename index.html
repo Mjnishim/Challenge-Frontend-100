@@ -1,95 +1,66 @@
 <!DOCTYPE html>
 <html>
   <head>
-
-    <title> web dev challenge </title>
+    <title>Igloo Community</title>
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-    <style>
-    h1{
-      font-size:14px;
-      font-weight:normal;
-      margin:0 0 -1.45em;
-    }
-    h4{
-      font-size:24px;
-    }
-    li {
-        display: inline-block;
-        text-align: left;
-    }
-    a{
-      color:#000;
-    }
-    a:hover
-    {
-      color:
-    }
-    span {
-        display: inline-block;
-        width: 300px;
-        margin-top:20px;
-        margin-left: 0px;
-        margin-bottom: 20px;
-        margin-right:0;
-        overflow: hidden;
-    }
-    body {
-        font-family: 'Oswald', sans-serif;
-    }
-    #content{
-      width: 1100px;
-      margin: 0 auto;
-    }
-    .footer{
-      background:#000;
-      color:#FFFFFF;
-      text-align:center;
-    }
-
-    </style>
+    <link href='css/style.css' rel='stylesheet' type='text/css'>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
   </head>
   <body>
-      <div id="content">
-  <div id ="n-primary">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Dashboard</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Campaigns</a></li>
-    <li><a href="#">Files</a></li>
-    <li><a href="#">Departments</a></li>
-    <li><a href="#">People</a></li>
-  </div>
-  <div id="search">
-  </div>
-
-  <div class="slider">
-    <span>
-        <h1>May 20,2015</h1>
-        <h4 style="margin: 35px 0 20px;"> Corporate Announcement</h4>
-        <img src="http://lorempixel.com/400/200/sports" />
-        <p> Lorem Ipsum</p>
-        <a href="#">Read More</a>
-    </span>
-    <span>
-        <p>May 20,2015</p>
-        <h2> Corporate Announcement</h2>
-        <img src="http://lorempixel.com/400/200/cats" />
-        <p> Lorem Ipsum</p>
-        <a href="#">Read More</a>
-    </span>
-    <span>
-        <p>May 20,2015</p>
-        <h2> Corporate Announcement</h2>
-        <img src="http://lorempixel.com/400/200/transport" > </img>
-        <p> Lorem Ipsum</p>
-        <a href="#">Read More</a>
-    </span>
-    <p> &nbsp; </p>
-    <br />
-  </div>
-</div>
-  <div class="footer">
-    <p> Copyright 2016 </p>
-  </div>
+    <div id="content">
+      <div id="header">
+        <div id="n-primary">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Campaigns/Brand</a></li>
+          <li><a href="#">Files</a></li>
+          <li><a href="#">Departments</a></li>
+          <li><a href="#">People</a></li>
+          <input id="search" placeholder="Search everywhere">
+          </input>
+        </div>
+        <div id="background">
+          <h2>Welcome to the Community</h2>
+          <h2>Share, connect, and collaborate</h2>
+          <div class="circleContainer">
+            <div class="circle" id="circle1"></div>
+            <div class="circle circleFilled" id="circle2"></div>
+            <div class="circle circleFilled" id="circle3"></div>
+          </div>
+        </div>
+      </div>
+      <div id="middle">
+        <h2>Stories from Us</h2>
+      </div>
+      <div class="slider">
+        <span>
+            <h1>May 20, 2015</h1>
+            <h2> Corporate Announcement</h2>
+            <img src="http://lorempixel.com/400/200/sports" />
+            <p>We want to ensure you are comfortable with our new and awesome platform. Since we have launched our new community, we have been receiving excellent feedback, but we would like to personally hear from you.</p>
+            <a href="#">Read More</a>
+        </span>
+        <span>
+            <h1>July 18, 2015</h1>
+            <h2>New Office Location</h2>
+            <img src="http://lorempixel.com/400/200/cats" />
+            <p>We have officially moved to our new office location! It has been a long time coming, but we have survived and now we are settling in.</p>
+            <a href="#">Read More</a>
+        </span>
+        <span>
+            <h1>August 26, 2015</h1>
+            <h2>Connect with coworkers</h2>
+            <img src="http://lorempixel.com/400/200/transport" > </img>
+            <p>We are looking into using this new platform to further assist you in connecting with your coworkers. We are hoping this tool will rock!</p>
+            <a href="#">Read More</a>
+        </span>
+      </div>
+    </div>
+    <div class="footer">
+      <p>&copy 2016</p>
+      <img src="assets/IglooLogo.png" height="50px"></img>
+    </div>
   </body>
 <html>
