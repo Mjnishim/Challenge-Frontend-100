@@ -43,6 +43,8 @@ span {
 #search{
   border-radius: 10px;
   border: 1px black solid;
+  background: url("../assets/search.png") top left no-repeat;
+  padding-left: 20px;
 }
 #content{
   margin: 0 auto;
@@ -53,9 +55,11 @@ span {
   justify-content: center;
   align-items: center;
   color: #FFFFFF;
-  height: 400px;
+  height: 300px;
+  max-width: 1490px;
   transition: background 1s linear;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://lorempixel.com/1100/400/city/1");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/community-homepage-background-1.png");
+  background-repeat: no-repeat;
 }
 #middle{
   display: flex;

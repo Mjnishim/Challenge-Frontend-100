@@ -6,7 +6,7 @@ $( document ).ready(function() {
       var elem = $(this);
       var clickedId = elem.attr("id");
       var idNum = clickedId.slice(-1);
-      var bgUrl = "http://lorempixel.com/1100/400/city/"+idNum
+      var bgUrl = "assets/community-homepage-background-"+idNum+".png"
       if (activeCircle !== clickedId){
         $("#"+activeCircle).addClass("circleFilled");
         activeCircle = clickedId;
