@@ -4,6 +4,7 @@ body {
 h1{
   font-size:14px;
   font-weight:normal;
+  color: #666666;
   margin:0 0 -1.45em;
 }
 h4{
@@ -110,4 +111,5 @@ span {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
