@@ -39,6 +39,7 @@ span {
   justify-content: center;
   margin-bottom: 20px;
   margin-top: 20px;
+  text-transform: uppercase;
 }
 #search{
   border-radius: 10px;
@@ -52,7 +53,7 @@ span {
 #background{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   color: #FFFFFF;
   height: 300px;
@@ -65,6 +66,16 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: normal;
+  font-size: 36px;
+  margin-top: 20px;
+}
+.headerText{
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.subheaderText{
+  font-size: 36px;
 }
 .circleContainer{
   display: flex;
@@ -72,16 +83,25 @@ span {
   justify-content: center;
 }
 .circle {
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   border: 2px solid #FFFFFF;
 	border-radius: 50%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
-  margin: 0 5px 0 5px;
+  margin: 20px 5px 40px 5px;
 }
 .circleFilled {
 	background-color: #FFFFFF;
+}
+.slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+.link {
+  font-weight: bold;
 }
 .footer{
   background:#000;
@@ -90,10 +110,4 @@ span {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-}
-.slider {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
 }
